@@ -1,0 +1,19 @@
+experiment: /Volumes/external2/rpf-external/reads/29-mers-orf_coding-FILTERED1.fastq
+alignment index: /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: 29-mers-orf_coding-FILTERED1--norc-a-v2-p4
+bowtie alignment command:
+bowtie -S -t --norc -a -v 2 -p 4 /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/external2/rpf-external/reads/29-mers-orf_coding-FILTERED1.fastq 29-mers-orf_coding-FILTERED1--norc-a-v2-p4.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:02:20
+# reads processed: 8329797
+# reads with at least one reported alignment: 8329797 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 10782357 alignments
+Time searching: 00:02:21
+Overall time: 00:02:21
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+deleting sam file
+data in alignment--norc-a-v2-p4
+DONE

@@ -1,0 +1,33 @@
+experiment: /Volumes/external2/rpf-external/reads/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29.fastq
+alignment index: /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1
+bowtie alignment command:
+bowtie -S -t --norc -v 2 -p 4 -m 1 --max SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1-suppressed.fastq /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/external2/rpf-external/reads/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29.fastq SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:03:25
+# reads processed: 14186928
+# reads with at least one reported alignment: 9676813 (68.21%)
+# reads that failed to align: 1419676 (10.01%)
+# reads with alignments suppressed due to -m: 3090439 (21.78%)
+Reported 9676813 alignments
+Time searching: 00:03:27
+Overall time: 00:03:27
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 2 files and 1 in-memory blocks...
+deleting sam file
+aligning reads suppressed my m=1 (mulimappers)
+reporting all alignments
+bowtie -S -t --norc -v 2 -p 4 -a /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 ./SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1-suppressed.fastq SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1-a_suppr_realigned.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:01:02
+# reads processed: 3090439
+# reads with at least one reported alignment: 3090439 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 6582211 alignments
+Time searching: 00:01:03
+Overall time: 00:01:03
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+deleting sam file

@@ -1,0 +1,32 @@
+experiment: /Volumes/external2/rpf-external/reads/29-mers-orf_coding-FILTERED1.fastq
+alignment index: /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: 29-mers-orf_coding-FILTERED1--norc-v2-p4-m1
+bowtie alignment command:
+bowtie -S -t --norc -v 2 -p 4 -m 1 --max 29-mers-orf_coding-FILTERED1--norc-v2-p4-m1-suppressed.fastq /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/external2/rpf-external/reads/29-mers-orf_coding-FILTERED1.fastq 29-mers-orf_coding-FILTERED1--norc-v2-p4-m1.sam
+Time loading forward index: 00:00:01
+Time loading mirror index: 00:00:00
+End-to-end 2/3-mismatch full-index search: 00:02:05
+# reads processed: 8329797
+# reads with at least one reported alignment: 7962569 (95.59%)
+# reads that failed to align: 0 (0.00%)
+# reads with alignments suppressed due to -m: 367228 (4.41%)
+Reported 7962569 alignments
+Time searching: 00:02:06
+Overall time: 00:02:06
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 1 files and 1 in-memory blocks...
+deleting sam file
+aligning reads suppressed my m=1 (mulimappers)
+reporting all alignments
+bowtie -S -t --norc -v 2 -p 4 -a /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 ./29-mers-orf_coding-FILTERED1--norc-v2-p4-m1-suppressed.fastq 29-mers-orf_coding-FILTERED1--norc-v2-p4-m1-a_suppr_realigned.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:00:13
+# reads processed: 367228
+# reads with at least one reported alignment: 367228 (100.00%)
+# reads that failed to align: 0 (0.00%)
+Reported 2819788 alignments
+Time searching: 00:00:14
+Overall time: 00:00:14
+converting to BAM, sorting, indexing
+deleting sam file

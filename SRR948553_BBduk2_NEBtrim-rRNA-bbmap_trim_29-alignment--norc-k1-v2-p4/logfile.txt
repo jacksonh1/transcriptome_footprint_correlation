@@ -1,0 +1,19 @@
+experiment: /Volumes/external2/rpf-external/reads/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29.fastq
+alignment index: /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1
+file prefix: SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-k1-v2-p4
+bowtie alignment command:
+bowtie -S -t --norc -k 1 -v 2 -p 4 /Volumes/external2/rpf-external/bowtie1-indexes/orf_coding-FILTERED1 /Volumes/external2/rpf-external/reads/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29.fastq SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-k1-v2-p4.sam
+Time loading forward index: 00:00:00
+Time loading mirror index: 00:00:01
+End-to-end 2/3-mismatch full-index search: 00:01:37
+# reads processed: 14186928
+# reads with at least one reported alignment: 12767252 (89.99%)
+# reads that failed to align: 1419676 (10.01%)
+Reported 12767252 alignments
+Time searching: 00:01:38
+Overall time: 00:01:38
+converting to BAM, sorting, indexing
+[bam_sort_core] merging from 2 files and 1 in-memory blocks...
+deleting sam file
+data in alignment--norc-k1-v2-p4
+DONE
