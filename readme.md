@@ -1,3 +1,7 @@
+# This repo is not for sharing with others. I am just learning how to use Git/Github with ongoing work
+
+---
+
 # ribosome profile correlation between replicates
 
 alignments are from `/Volumes/external2/rpf-external/alignments/yeast/orf_coding-FILTERED1`
