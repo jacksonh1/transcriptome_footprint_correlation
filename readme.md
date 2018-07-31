@@ -1,4 +1,4 @@
-# This repo is not for sharing with others. I am just learning how to use Git/Github with ongoing work
+# This repo is not for others, I'm just learning how to use Git/Github using ongoing work
 
 ---
 
