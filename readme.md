@@ -22,8 +22,13 @@ they are bbmap trimmed to length 29
 - manually delete realignment bams
 
 `./SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-a-v2-p4/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-a-v2-p4.sorted.bam`
+
 `./SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-k1-v2-p4/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-k1-v2-p4.sorted.bam`
+
 `./SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-v2-p4-m1/SRR948553_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1.sorted.bam`
+
 `./SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-a-v2-p4/SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-a-v2-p4.sorted.bam`
+
 `./SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-k1-v2-p4/SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-k1-v2-p4.sorted.bam`
+
 `./SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29-alignment--norc-v2-p4-m1/SRR948555_BBduk2_NEBtrim-rRNA-bbmap_trim_29--norc-v2-p4-m1.sorted.bam`
